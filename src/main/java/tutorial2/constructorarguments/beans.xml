@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- In constructor-arg only value is required but type and name are optional
+	 but if type and name are used then they should be accurate. Like 1st argument
+	  name should be same as argument customerName of constructor in SBIBank class -->
+ 	<!-- Similarly 2nd argument name should be same as argument brachCode of
+ 	 constructor in SBIBank class -->
+	
+	<bean id="sbi" class="tutorial2.constructorarguments.SBIBank">
+		<constructor-arg value="Ramesh" type="java.lang.String"
+			name="customerName">
+		</constructor-arg>
+		<constructor-arg value="124" type="int" name="branchCode" />
+	</bean>
+</beans>

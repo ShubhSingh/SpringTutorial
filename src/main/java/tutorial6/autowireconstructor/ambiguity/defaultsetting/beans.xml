@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	default-autowire="constructor"
+	default-autowire-candidates="account1">
+
+	<!-- Remove ambiguity using default-autowire="constructor" default-autowire-candidates="account1" 
+	 But it can be overridden using local settings like primary="true"-->
+	<bean id="sbi" class="tutorial6.autowireconstructor.ambiguity.defaultsetting.SBIBank"></bean>
+
+	<bean id="account1" class="tutorial6.autowireconstructor.ambiguity.defaultsetting.SavingAccount"></bean>
+	<bean id="account2" class="tutorial6.autowireconstructor.ambiguity.defaultsetting.SavingAccount"></bean>
+</beans>

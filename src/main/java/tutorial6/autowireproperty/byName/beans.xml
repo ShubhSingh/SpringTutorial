@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Be careful for ambiguity in bean names -->
+	<bean id="sbi" class="tutorial6.autowireproperty.byName.SBIBank" autowire="byName">
+	</bean>
+
+	<bean name="saving" class="tutorial6.autowireproperty.byName.SavingAccount">
+		<property name="savingAcc" value="Saving Account is Now Active."></property>
+	</bean>
+	<!-- autowire byName also works with id -->
+	<bean id="current" class="tutorial6.autowireproperty.byName.CurrentAccount">
+		<property name="currentAcc" value="Current Account is Now Active."></property>
+	</bean>
+</beans>
