@@ -3,9 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-<!-- The default path for properties file is classpath. So in case uhave a file in some package in classpath
+<!-- The default path for properties file is classpath. So in case you have a file in some package in classpath
 change the basename accordingly. You can either use slash(/) or dot(.) to mention package name -->
+
 	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="i18n/messages"></property>
+		<property name="basename" value="tutorial10/i18n/messages"></property>
 	</bean>	
+
 </beans>

@@ -1,9 +1,5 @@
 package springjdbc;
-/**
- * 
- * @author Apurav
- *
- */
+
 public class User {
 
 	private Integer userId;

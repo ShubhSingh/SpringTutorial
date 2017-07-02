@@ -1,9 +1,5 @@
 package springjdbc;
-/**
- * 
- * @author Apurav
- *
- */
+
 public interface IUserDao {
 
 	int insertUser(User user);

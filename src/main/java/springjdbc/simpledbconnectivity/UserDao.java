@@ -7,10 +7,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import springjdbc.IUserDao;
 import springjdbc.User;
 
-/**
- * @author achauhan
- * 
- */
 public class UserDao implements IUserDao {
 	/*
 	 * For reference visit:
