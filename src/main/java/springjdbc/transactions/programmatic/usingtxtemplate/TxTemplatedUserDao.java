@@ -8,8 +8,8 @@ import org.springframework.transaction.support.TransactionCallback;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 
-import springjdbc.IUserDao;
-import springjdbc.User;
+import tutorial11.springjdbc.IUserDao;
+import tutorial11.springjdbc.User;
 
 /**This class demonstrates how to use transaction template to programatically 
  * handle transactions.

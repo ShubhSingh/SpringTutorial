@@ -4,8 +4,8 @@ import java.util.Random;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import springjdbc.IUserDao;
-import springjdbc.User;
+import tutorial11.springjdbc.IUserDao;
+import tutorial11.springjdbc.User;
 /**
  * 
  * @author Apurav

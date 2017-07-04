@@ -7,5 +7,8 @@
 	<classpathentry kind="lib" path="C:/oracle/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar" sourcepath="C:/oracle/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Log"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AspectJ"/>
+	<classpathentry kind="lib" path="C:/Java Dev Workspace/installations/db-derby-10.13.1.1-bin/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="C:/Java Dev Workspace/installations/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Java Dev Workspace/installations/commons-pool-1.5.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
