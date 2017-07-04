@@ -12,6 +12,7 @@ public class AopMain {
 		System.out.println(shapeService.getTriangle().getName());
 		System.out.println("----------");
 		shapeService.getCircle().setName("Green Circle");
+		System.out.println("----------");
 		System.out.println(shapeService.getCircle().getName());
 		
 		context.close();
