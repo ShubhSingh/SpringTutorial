@@ -7,10 +7,13 @@
 		</layout>
 	</appender>
 	<logger name="org.springframework">
-		<level value="debug" />
+		<level value="ERROR" />
+	</logger>
+	<logger name="tutorial12.spring.transaction">
+		<level value="INFO" />
 	</logger>
 	<root>
-		<level value="error" />
+		<level value="ERROR" />
 		<appender-ref ref="CONSOLE" />
 	</root>
 </log4j:configuration>
