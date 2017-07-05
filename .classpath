@@ -6,5 +6,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AspectJ"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Logging"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring4.3.8"/>
+	<classpathentry kind="lib" path="C:/JavaWorkspace/Installations/db-derby-10.13.1.1-bin/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="C:/JavaWorkspace/Projects/SpringMvcTemplate/WebContent/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/JavaWorkspace/Installations/hsqldb-2.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
